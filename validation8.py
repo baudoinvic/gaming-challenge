@@ -34,14 +34,14 @@ def get_result(player_choice, computer_choice):
         return 'win'
 
 # this the Main game loop
-while True:
-    print("Start ‘rock-paper-scissors’")
-    player_choice = get_player()
-    computer_choice = get_computer()
-    view_hand(player_choice, computer_choice)
+# while True:
+#     print("Start ‘rock-paper-scissors’")
+#     player_choice = get_player()
+#     computer_choice = get_computer()
+#     view_hand(player_choice, computer_choice)
 
-    result = get_result(player_choice, computer_choice)
-    print(result)
+#     result = get_result(player_choice, computer_choice)
+#     print(result)
 
-    if result != 'draw':
-        break
+#     if result != 'draw':
+#         break
