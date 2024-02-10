@@ -20,3 +20,5 @@ elif (player_choice == 0 and computer_choice == 1) or \
       print("Player wins")
 else: 
       print("Computer wins") 
+
+   
