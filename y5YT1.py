@@ -13,11 +13,11 @@ print('Your choice:', choices[my_hand])
 print("Computer's choice:", choices[computer_hand])
 
 # Determine the winner
-if my_hand == computer_hand:
-    print("It's a tie!")
-elif (my_hand == 0 and computer_hand == 1) or \
-     (my_hand == 1 and computer_hand == 2) or \
-     (my_hand == 2 and computer_hand == 0):
-    print("You win!")
-else:
-    print("Computer wins!")
+# if my_hand == computer_hand:
+#     print("It's a tie!")
+# elif (my_hand == 0 and computer_hand == 1) or \
+#      (my_hand == 1 and computer_hand == 2) or \
+#      (my_hand == 2 and computer_hand == 0):
+#     print("You win!")
+# else:
+#     print("Computer wins!")
